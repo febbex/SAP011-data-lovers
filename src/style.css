@@ -1,0 +1,11 @@
+* {
+    font-family: "Game of Thrones";
+    color: white;
+    width: 100vh;
+    
+  
+}
+body{
+    background-image: url(./BG_GOT.jpg);
+    background-size: 100%;
+}
