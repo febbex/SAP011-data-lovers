@@ -1,9 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/phosphor-icons"></script>
 </head>
-<main></main>
-    </html>
+
+<body>
+  <header>
+    <h1>Personagens</h1>
+    <div class="input-wrapper">
+      <label for="filter" class="sr-only">Filter</label>
+      <input id="filter" type="text" placeholder="Filter">
+      <i class="ph-magnifying-glass"></i>
+    </div>
+  </header>
+  <main id="tela-principal">
+    <section class="conteudos">
+      <article class='card'>
+        <img id='imageUrl' class='imageUrl' src="https://thronesapi.com/assets/images/daenerys.jpg" alt="imageUrl" />
+        <h2 id='nome' class='nome'>Nome</h2>
+        <h3 id='familia' class='familia'>Família</h3>
+        <h3 id='titulo' class='titulo'>Título</h3>
+      </article>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
