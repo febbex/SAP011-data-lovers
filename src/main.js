@@ -1,48 +1,46 @@
-const sectionConteudos = document.querySelector('.conteudos');
-const url = 'got.json';
+//import { example } from './data.js';
+//import data from './data/got/got.js';
+//console.log('Cards')
 
-function pegarDados() {
-    fetch(url)
-        .then(response => response.json())
-        .then(dados => {
-            if (dados.erro) {
-                console.log("Erro ao acessar o JSON");
-                return;
-            }
-            desenharCartas(dados.got);
-        })
-        .catch(error => {
-            console.error("Erro ao carregar os dados:", error);
-        });
+const sectionCards = document.querySelector('.cards')
+fetch('got.json')
+  .then(response => response.json())
+  .then(data => {
+    //console.log(data)
+    //filterPesquisar(data)
+    data.map(personagem => {
+      const card = document.createElement('div')
+      card.classList.add('card')
+      //console.log(card)
+      card.innerHTML =
+            `<img src="${personagem.imageUrl}" alt="${personagem.fullName}"/>
+         <h2 class='nome'>${personagem.fullName}</h2>
+         <h3 id='familia' class='familia'>${personagem.family}</h3>
+         <h3 id='titulo' class='titulo'>${personagem.title}</h3>`
+      sectionCards.appendChild(card)
+
+    })
+  })
+
+const filtrarPorNome = document.querySelector('header input')
+
+filtrarPorNome.addEventListener('input', filterCards)
+
+function filterCards() {
+  if (filtrarPorNome.value !== '') {
+    for (const card of document.querySelectorAll('.card')) {
+      const titleElement = card.querySelector('.nome');
+      const title = titleElement.textContent.toLowerCase();
+      const filterText = filtrarPorNome.value.toLowerCase();
+      if (!title.includes(filterText)) {
+        card.style.display = "none";
+      } else {
+        card.style.display = "block";
+      }
+    }
+  } else {
+    for (const card of document.querySelectorAll('.card')) {
+      card.style.display = "block";
+    }
+  }
 }
-
-function desenharCartas(personagens) {
-    sectionConteudos.innerHTML = ''; // Limpa o conteúdo anterior
-    personagens.forEach(personagem => {
-        const carta = document.createElement("article");
-        carta.setAttribute('class', 'card');
-        sectionConteudos.appendChild(carta);
-
-        const imagem = document.createElement("img");
-        imagem.setAttribute('class', 'imageUrl');
-        imagem.setAttribute('src', personagem.imageUrl); // Correção aqui
-        carta.appendChild(imagem);
-
-        const nomePersonagem = document.createElement("h2");
-        nomePersonagem.setAttribute('class', 'fullName');
-        nomePersonagem.textContent = personagem.fullName;
-        carta.appendChild(nomePersonagem);
-
-        const familia = document.createElement("h3");
-        familia.setAttribute('class', 'family');
-        familia.textContent = personagem.family;
-        carta.appendChild(familia);
-
-        const titulo = document.createElement("h3");
-        titulo.setAttribute('class', 'title');
-        titulo.textContent = personagem.title;
-        carta.appendChild(titulo);
-    });
-}
-
-pegarDados();

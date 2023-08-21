@@ -1,4 +1,4 @@
-export default{
+export default {
   "got":[
     {
       "id": 0,
