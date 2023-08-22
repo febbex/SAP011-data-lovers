@@ -71,38 +71,3 @@ function filterCards() {
     }
   }
 }
-
-const ordenarCrescenteButton = document.querySelector('#ordenarCrescente');
-const ordenarDecrescenteButton = document.querySelector('#ordenarDecrescente');
-
-// Evento de clique no botão de ordem crescente
-ordenarCrescenteButton.addEventListener('click', () => {
-  sortAndRenderCards('asc');
-});
-
-// Evento de clique no botão de ordem decrescente
-ordenarDecrescenteButton.addEventListener('click', () => {
-  sortAndRenderCards('desc');
-});
-
-// Função para ordenar e renderizar os cards
-function sortAndRenderCards(order) {
-  const cards = Array.from(document.querySelectorAll('.card'));
-  const sortedCards = cards.sort((a, b) => {
-    const aName = a.querySelector('.nome').textContent.toLowerCase();
-    const bName = b.querySelector('.nome').textContent.toLowerCase();
-    if (order === 'asc') {
-      return aName.localeCompare(bName);
-    } else {
-      return bName.localeCompare(aName);
-    }
-  });
-  
-  // Limpar a seção de cards
-  sectionCards.innerHTML = '';
-  
-  // Adicionar os cards ordenados de volta
-  sortedCards.forEach(card => {
-    sectionCards.appendChild(card);
-  });
-}
