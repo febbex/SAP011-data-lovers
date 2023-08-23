@@ -22,52 +22,70 @@
   border-width: 0;
   white-space: nowrap;
 }
+
 body {
   font-family: 'Game of Thrones', sans-serif;
   font-size: 1.8rem;
   background-color: #0D0D0D;
   /*background-image: url(./throne-game-of-thrones.gif);*/
 }
+
+.index {
+  background: #000000;
+ 
+}
+
 h1 {
   font-size: 2.5rem;
   color: #BFBCAA;
 }
-.menu a{
+
+#btnMenu {
+  background: #252625;
+  text-align: left;
+}
+
+.inicio a {
   font-family: 'Roboto', sans-serif;
   color: #BFBCAA;
   font-size: 2.50rem;
-  
-}
-section#Home #Busca {
-  width: 900px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  margin-left: 4.0rem;
+  text-decoration: none;
+
 }
 
-#Home #Busca li {
+nav #Menu {
+  width: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+#Menu li {
   list-style: none;
 }
 
-#Home #Busca li a {
+#Menu li a {
   text-decoration: none;
   font-family: "Game of Thrones", sans-serif;
   color: #BFBCAA;
-  font-size: 1.6em;
+  font-size: 1.9rem;
   padding: 20px 0;
   text-decoration: none;
-} 
+}
 
-#Home #Busca li a:hover {
-  background-image: url(./assets/fogo.gif) ;
+#Menu li a:hover {
+  background-image: url(./assets/fogo.gif);
   color: #ec5d1b;
 
-} 
-#Home #Busca li.personagens a:hover {
+}
+
+#Menu li.personagens a:hover {
   background-image: url(./assets/fogo_gelo.gif);
   color: #1b9fec;
 }
-header {
+
+main {
   text-align: center;
   padding: 3.2rem;
   max-width: 46rem;
@@ -77,15 +95,16 @@ header {
 .section-filter {
   position: relative;
 }
-header input {
-  margin-top: 2rem;
+
+main input {
+  margin-top: 1rem;
   padding: 1rem 1.6rem;
   border-radius: .8rem;
 
   background-color: #595856;
   border: 0;
 
-  width: 100%;
+  width: flex;
   color: #F2F1E4;
 
   font-size: 1.6rem;
@@ -164,41 +183,61 @@ section {
   right: 02px;
   display: flex;
 }
+
 footer {
   font-family: 'Roboto', sans-serif;
-  color: #e9e7df;
-  font-size: medium;
+  bottom: 0;
+  color: #979695;
+  font-size: 1.3rem;
+  width: 100%;
+  height: 100px;
   text-align: center;
-  
+  line-height: 100px;
 }
-section p{
-  font-family: 'Roboto', sans-serif;
-  color: #e9e7df;
-  font-size: large;
-  margin-top: 2rem;
-  margin-right:1rem; 
-}
-/* Estilizando a caixa de seleção */
-.familia-input {
-  width: 50%; /* Define a largura da caixa de seleção */
-  padding: 10px; /* Espaçamento interno */
-  border: 1px solid #e9e7df; /* Borda */
-  border-radius: 8px; /* Cantos arredondados */
-  background-color: #444; /* Cor de fundo */
-  color: #e9e7df; /* Cor do texto */
-  font-size: 14px; /* Tamanho da fonte */
-  margin-top: 1rem;
-  
-}
-/* Estilizando as opções da caixa de seleção */
-.familia-input option {
-  background-color: #444; /* Cor de fundo das opções padrão */
-  color: #e9e7df; /* Cor do texto das opções padrão */
-}
-/* Quando a caixa de seleção estiver em foco */
-.familia-input:focus {
-  outline: none; /* Remove o contorno padrão */
-  border-color: #e9e7df; /* Cor da borda em foco */
-  box-shadow: 0 0 5px #e9e7df; /* Sombra em foco */
 
+
+/* Estilizando a caixa de seleção */
+#filtrarPorFamilia {
+  margin-top: 1rem;
+  margin-left: 0.98rem;
+  padding: 1rem 1.6rem;
+  border-radius: .8rem;
+
+  background-color: #595856;
+  border: 0;
+
+  width: flex;
+  color: #979695;
+
+  font-size: 1.6rem;
+
+}
+
+#filtrarOrdem {
+  margin-top: 1rem;
+  margin-left: 0.98rem;
+  padding: 1rem 1.6rem;
+  border-radius: .8rem;
+
+  background-color: #595856;
+  border: 0;
+
+  width: flex;
+  color: #979695;
+
+  font-size: 1.6rem;
+}
+.textSobre{
+  margin-top: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: #A6A3A1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.0rem;
+  text-align: justify;
+}
+figure{
+  height: flex;
+  width: flex;
+  text-align: center;
 }

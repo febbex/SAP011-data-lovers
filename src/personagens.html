@@ -11,16 +11,28 @@
 
 <body>
   <span id="topo"></span>
-  <li class="menu"><a href="/src/index.html">Início</a></li>
-  <header>
+  <header id="btnMenu">
+    <nav>
+      <ul>
+        <li class="inicio"><a href="/src/index.html">Início</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
     <h1>Personagens</h1>
     <section class="section-filter">
       <label for="filter" class="inputFilter">Filter</label>
       <input id="filter" type="text" placeholder="Nome...">
       <!-- <i class="ph-magnifying-glass"></i>-->
+      <select id="filtrarPorFamilia">
+        <option value="">Famílias</option>
+      </select>
+      <!-- Botões de ordenação -->
+      <select id="filtrarOrdem">
+        <option value="asc">A-Z</option>
+        <option value="desc">Z-A</option>
+      </select>
     </section>
-  </header>
-  <main>
     <section class="cards">
       <div class="cardPersonagens">
       </div>
@@ -37,5 +49,3 @@
   <!--<script src="data.js"></script>-->
 
 </body>
-
-</html>
