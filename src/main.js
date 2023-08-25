@@ -1,47 +1,26 @@
-//import {   } from './data.js';
 import data from './data/got/got.js';
 
 const sectionCards = document.querySelector('.cards')
 const filtrarPorNome = document.querySelector('main input')
+
+
 // Criação dos cards
 data.got.map(personagem => {
   const card = document.createElement('div');
-  card.classList.add('card');
-
+  card.classList.add('card'); // Adiciona a classe "card" ao elemento div
   card.innerHTML =
-    `<img src="${personagem.imageUrl}" alt="${personagem.fullName}"/>
-     <h2 class='nome'>${personagem.fullName}</h2>
-     <h3 class='familia'>${personagem.family}</h3>
-     <h3 class='titulo'>${personagem.title}</h3>`;
-
-  sectionCards.appendChild(card);
-});
-
-// Evento de input no filtro por nome
-
-filtrarPorNome.addEventListener('input', filterCards)
-
-function filterCards() {
-  const filterText = filtrarPorNome.value.toLowerCase();
-
-  if (filterText !== '') {
-    for (const card of document.querySelectorAll('.card')) {
-      const titleElement = card.querySelector('.nome');
-      const title = titleElement.textContent.toLowerCase();
-
-      if (!title.includes(filterText)) {
-        card.style.display = 'none';
-      } else {
-        card.style.display = 'block';
-      }
-    }
-  } else {
-    for (const card of document.querySelectorAll('.card')) {
-      card.style.display = 'block';
-    }
-  }
+      `<img src="${character.imageUrl}" alt="${character.fullName}"/>
+      <h2 class='nome'>${character.fullName}</h2>
+      <h3 class='familia'>${character.family}</h3>
+      <h3 class='titulo'>${character.title}</h3>`;
+  return card; // Retorna o elemento card criado
 }
 
 
+// Adiciona ouvintes de eventos para os inputs e selects
+filtrarPorNome.addEventListener('input', filterCardsByInputAndFamily);
+familySelect.addEventListener('change', filterCardsByInputAndFamily);
+sortSelect.addEventListener('change', filterCardsByInputAndFamily);
 
-
+// Inicializa a página chamando a função initialize
+initialize();
