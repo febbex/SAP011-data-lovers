@@ -51,7 +51,17 @@ h1 {
   font-size: 2.50rem;
   margin-left: 4.0rem;
   text-decoration: none;
-
+  display: flex;/* Usar flexbox para layout */
+  align-items: center; /* Alinhar verticalmente no centro */
+  padding: 2%;
+  }
+  
+  /* Estilos para telas menores */
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Colocar elementos em coluna */
+      text-align: center; /* Centralizar texto */
+    }
 }
 
 nav #Menu {
@@ -193,6 +203,8 @@ footer {
   height: 100px;
   text-align: center;
   line-height: 100px;
+ 
+  
 }
 
 
