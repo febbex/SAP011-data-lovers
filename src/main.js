@@ -1,9 +1,8 @@
+//import {   } from './data.js';
 import data from './data/got/got.js';
 
 const sectionCards = document.querySelector('.cards')
 const filtrarPorNome = document.querySelector('main input')
-
-
 // Criação dos cards
 data.got.map(personagem => {
   const card = document.createElement('div');
@@ -42,6 +41,7 @@ function filterCards() {
     }
   }
 }
+
 
 
 
