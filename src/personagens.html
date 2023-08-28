@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+  <!--<script src="https://unpkg.com/phosphor-icons"></script>-->
+</head>
+
+<body>
+  <span id="topo"></span>
+  <header id="btnMenu">
+    <nav>
+      <ul>
+        <li class="inicio"><a href="/src/index.html">Início</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Personagens</h1>
+    <section class="section-filter">
+      <label for="filter" class="inputFilter">Filter</label>
+      <input id="filter" type="text" placeholder="Nome...">
+      <!-- <i class="ph-magnifying-glass"></i>-->
+      <select id="filtrarPorFamilia">
+        <option value="">Famílias</option>
+      </select>
+      <!-- Botões de ordenação -->
+      <select id="filtrarOrdem">
+        <option value="asc">A-Z</option>
+        <option value="desc">Z-A</option>
+      </select>
+    </section>
+    <section class="cards">
+      <div class="cardPersonagens"></div>
+    </section>
+  </main>
+  <div>
+    <a class="btnTopo" href="#topo"><img src="./assets/espada_got.png"></a>
+  </div>
+  <footer>
+    <p>Produzido por Thamires Febbo e Dara Coelho &copy; 2023</p>
+  </footer>
+  
+  <script src="main.js" type="module"></script>
+  <script src="data.js" type="module"></script>
+
+</body>
+</html>
