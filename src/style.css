@@ -51,6 +51,8 @@ h1 {
   font-size: 2.50rem;
   margin-left: 4.0rem;
   text-decoration: none;
+  padding: 1rem;
+  display: flex;
 
 }
 
@@ -126,6 +128,13 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border: 5px solid red;
+}
+.cardPersonagens {
+  border: 5px solid green;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .card {
