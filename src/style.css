@@ -128,7 +128,7 @@ section {
   justify-content: center;
 }
 
-.card {
+.cardPersonagens {
   flex: 0 1 230px;
   margin: 1rem;
   padding: 1rem;
@@ -141,7 +141,7 @@ section {
   user-select: none;
 }
 
-.card img {
+.cardPersonagens img {
   width: 100%;
   height: 200px;
   border-radius: 8px;
@@ -152,13 +152,13 @@ section {
   user-select: none;
 }
 
-.card h3 {
+.cardPersonagens h3 {
   font-family: 'Roboto', sans-serif;
 
 }
 
-.card h3,
-.card h2 {
+.cardPersonagens h3,
+.cardPersonagens h2 {
   background: #A6A3A1;
   border-radius: 5px;
   padding: 5px;
@@ -167,7 +167,7 @@ section {
   user-select: none;
 }
 
-.card h2 {
+.cardPersonagens h2 {
   font-size: 1.1rem;
   height: 3.5rem;
   display: flex;

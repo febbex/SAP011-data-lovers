@@ -1,15 +1,5 @@
 // O módulo data.js exporta duas funções para serem usadas em outras partes do código
 
-<<<<<<< HEAD
-//export const example = () => {
-//    return 'example';
-// };
- 
-// export const anotherExample = () => {
-//  return 'OMG';
-//};
-//filtro familia
-=======
 // Função para gerar opções de filtro de família no elemento select
 export function generateFamilySelectOptions(data, familySelect) {
   // Cria um conjunto de todas as famílias presentes nos dados
@@ -40,4 +30,3 @@ export function filterAndSortCharacters(inputValue, selectedFamily, sortOrder, c
   });
 }
 
->>>>>>> 99950e84418ff61c7f990b99e58af8ce4def6984
