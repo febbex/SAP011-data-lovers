@@ -1,7 +1,5 @@
 # Data Lovers
-___
-permalink: /index.html
-___
+
 ## Índice
 
 * [1. Preâmbulo](#1-preâmbulo)

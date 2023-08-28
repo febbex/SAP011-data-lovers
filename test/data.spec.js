@@ -1,23 +1,21 @@
-import { example, anotherExample } from '../src/data.js';
+import { generateFamilySelectOptions } from './data.js';
 
+describe('generateFamilySelectOptions', () => {
+  it('retornar familias', () => {
+    const data = [
+      { family: 'THouse Targaryen' },
+      { family: 'House Stark' },
+      { family: 'House Lannister'},
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
-  });
+    ];
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
+    const familySelect = document.createElement('select');
+    generateFamilySelectOptions(data, familySelect);
 
+    const options = familySelect.querySelectorAll('option');
 
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
+    const optionValues = Array.from(options).map(option => option.value);
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+    expect(optionValues).toEqual(['', 'House Targaryen', 'House Stark', 'House Lannister']);
   });
 });
