@@ -1,48 +1,31 @@
 @import url('https://db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
+/*resetando a página*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
-:root {
-  font-size: 80.0%;
-}
-
-.inputFilter {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border-width: 0;
-  white-space: nowrap;
-}
-
-body {
+/*corpo das páginas*/
+#main-container {
+  display: flex;
+  flex-direction: column; /*corpo das páginas em coluna*/
+  height: 100%;
   font-family: 'Game of Thrones', sans-serif;
-  font-size: 1.8rem;
   background-color: #0D0D0D;
-  /*background-image: url(./throne-game-of-thrones.gif);*/
 }
-
-.index {
-  background: #000000;
- 
-}
-
-h1 {
+/*titulo texto sobbre e personagens*/
+h1 { 
   font-size: 2.5rem;
   color: #BFBCAA;
 }
-
-#btnMenu {
+/*cabeçalho inicio*/
+header .inicio {
   background: #252625;
   text-align: left;
+  display: flex;
 }
 
 .inicio a {
@@ -55,25 +38,26 @@ h1 {
   display: flex;
 
 }
-
+/*menu pag index*/
 nav #Menu {
   width: center;
   display: flex;
   justify-content: space-evenly;
   margin-top: 5rem;
+  
 }
-
 #Menu li {
   list-style: none;
 }
 
 #Menu li a {
-  text-decoration: none;
   font-family: "Game of Thrones", sans-serif;
+  word-spacing: 10px;
   color: #BFBCAA;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   padding: 20px 0;
   text-decoration: none;
+
 }
 
 #Menu li a:hover {
@@ -111,12 +95,6 @@ main input {
 
   font-size: 1.6rem;
 }
-
-/* .section-filter i {
-  position: absolute;
-  right: 1.2rem;
-  bottom: 1.2rem;
-}*/
 
 main {
   padding-inline: 2.2rem;
@@ -246,9 +224,49 @@ footer {
   font-family: 'Roboto', sans-serif;
   font-size: 1.0rem;
   text-align: justify;
+  
 }
 figure{
   height: flex;
   width: flex;
   text-align: center;
+}
+/* MOBILE */
+
+@media(max-width:450px) {
+
+  #main-container {
+      height: 100%;
+      flex-wrap: wrap;    
+  }
+  /*menu pag index*/
+nav #Menu {
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+
+}
+#Menu li {
+  list-style: none;
+}
+
+#Menu li a {
+  font-family: "Game of Thrones", sans-serif;
+  color: #BFBCAA;
+  font-size: 1.5rem;
+  text-decoration: none;
+
+}
+
+#Menu li a:hover {
+  background-image: url(./assets/fogo.gif);
+  color: #ec5d1b;
+
+}
+
+#Menu li.personagens a:hover {
+  background-image: url(./assets/fogo_gelo.gif);
+  color: #1b9fec;
+}
+
+
 }
