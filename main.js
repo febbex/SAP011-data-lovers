@@ -1,6 +1,6 @@
 // Importando o objeto de dados e as funções necessárias do módulo data.js
 import data from './data/got/got.js';
-import { generateFamilySelectOptions, filterAndSortCharacters } from './data.js';
+import { filterAndSortCharacters } from './data.js';
 
 // Selecionando elementos do DOM
 const sectionCards = document.querySelector('.cardPersonagens');
@@ -33,6 +33,28 @@ function createCharacterCard(character) {
 
 // Função de inicialização
 function initialize() {
+  
+  // Essa função preenche o dropdown de seleção de famílias com as opções únicas de famílias presentes nos dados.
+  function generateFamilySelectOptions(data, familySelect) {
+  // Cria um objeto para rastrear as famílias únicas
+    const familyMap = {};
+    // Percorre os dados para identificar as famílias únicas
+    data.forEach(character => {
+    // Usa o nome da família como chave e define um valor qualquer (como true)
+      familyMap[character.family] = true;
+    });
+
+    // Itera pelas famílias únicas e adiciona opções ao dropdown
+    Object.keys(familyMap).forEach(family => {
+      // Cria uma nova opção
+      const option = document.createElement('option');
+      // Define o valor e o texto da opção como o nome da família
+      option.value = family;
+      option.textContent = family;
+      // Adiciona a opção ao dropdown
+      familySelect.appendChild(option);
+    });
+  }
   // Gera as opções de filtro de família no elemento select
   generateFamilySelectOptions(data.got, familySelect);
   // Função de listener que é chamada quando ocorrem alterações nos filtros

@@ -1,26 +1,31 @@
 @import url('https://db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 /*resetando a página*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
+
 }
 
 /*corpo das páginas*/
 #main-container {
   display: flex;
-  flex-direction: column; /*corpo das páginas em coluna*/
-  height: 100%;
+  flex-direction: column;
+  /*corpo das páginas em coluna*/
+  min-height: 100vh;
+  background-color: #000000;
   font-family: 'Game of Thrones', sans-serif;
-  background-color: #0D0D0D;
 }
-/*titulo texto sobbre e personagens*/
-h1 { 
+
+/*titulo texto sobre e personagens*/
+h1 {
   font-size: 2.5rem;
   color: #BFBCAA;
 }
+
 /*cabeçalho inicio*/
 header .inicio {
   background: #252625;
@@ -31,6 +36,7 @@ header .inicio {
 .inicio a {
   font-family: 'Roboto', sans-serif;
   color: #BFBCAA;
+  background: none;
   font-size: 2.50rem;
   margin-left: 4.0rem;
   text-decoration: none;
@@ -38,14 +44,16 @@ header .inicio {
   display: flex;
 
 }
+
 /*menu pag index*/
 nav #Menu {
   width: center;
   display: flex;
   justify-content: space-evenly;
   margin-top: 5rem;
-  
+
 }
+
 #Menu li {
   list-style: none;
 }
@@ -54,7 +62,7 @@ nav #Menu {
   font-family: "Game of Thrones", sans-serif;
   word-spacing: 10px;
   color: #BFBCAA;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   padding: 20px 0;
   text-decoration: none;
 
@@ -82,16 +90,41 @@ main {
   position: relative;
 }
 
+/* Estilizando Filtros */
 main input {
   margin-top: 1rem;
   padding: 1rem 1.6rem;
   border-radius: .8rem;
-
   background-color: #595856;
   border: 0;
-
   width: flex;
   color: #F2F1E4;
+  font-size: 1.6rem;
+}
+
+/* Estilizando a caixa de seleção */
+#filtrarPorFamilia {
+  margin-top: 1rem;
+  margin-left: 0.98rem;
+  padding: 1rem 1.6rem;
+  border-radius: .8rem;
+  background-color: #595856;
+  border: 0;
+  width: flex;
+  color: #979695;
+  font-size: 1.6rem;
+
+}
+
+#filtrarOrdem {
+  margin-top: 1rem;
+  margin-left: 0.98rem;
+  padding: 1rem 1.6rem;
+  border-radius: .8rem;
+  background-color: #595856;
+  border: 0;
+  width: flex;
+  color: #979695;
 
   font-size: 1.6rem;
 }
@@ -102,14 +135,7 @@ main {
   margin: 0.0rem auto;
 }
 
-section {
-  flex-wrap: wrap;
-  justify-content: center;
-  display: flex;
-  
-}
-
-.cardPersonagens{
+.cardPersonagens {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -171,6 +197,7 @@ section {
   bottom: 02px;
   right: 02px;
   display: flex;
+  background: none;
 }
 
 footer {
@@ -182,90 +209,117 @@ footer {
   height: 100px;
   text-align: center;
   line-height: 100px;
-}
-
-
-/* Estilizando a caixa de seleção */
-#filtrarPorFamilia {
-  margin-top: 1rem;
-  margin-left: 0.98rem;
-  padding: 1rem 1.6rem;
-  border-radius: .8rem;
-
-  background-color: #595856;
-  border: 0;
-
-  width: flex;
-  color: #979695;
-
-  font-size: 1.6rem;
 
 }
 
-#filtrarOrdem {
+.textSobre {
   margin-top: 1rem;
-  margin-left: 0.98rem;
-  padding: 1rem 1.6rem;
-  border-radius: .8rem;
-
-  background-color: #595856;
-  border: 0;
-
-  width: flex;
-  color: #979695;
-
-  font-size: 1.6rem;
-}
-.textSobre{
-  margin-top: 1rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: auto;
+  margin-right: auto;
   color: #A6A3A1;
   font-family: 'Roboto', sans-serif;
   font-size: 1.0rem;
   text-align: justify;
-  
+
 }
-figure{
+
+figure {
   height: flex;
   width: flex;
   text-align: center;
 }
+
 /* MOBILE */
 
-@media(max-width:450px) {
+@media(max-width:1024px) {
 
   #main-container {
-      height: 100%;
-      flex-wrap: wrap;    
+    flex-wrap: wrap;
+    min-height: 100vh;
   }
+
   /*menu pag index*/
-nav #Menu {
-  flex-wrap: wrap; 
-  justify-content: space-evenly;
+  nav #Menu {
+    margin-top: 9rem;
+    max-height: none;
+    justify-content: wrap;
+
+  }
+
+  #logo img {
+    width: 70vw;
+  }
+
+  #Menu li a {
+    text-align: center;
+    font-size: medium;
+  }
+
+  /*titulo texto sobre e personagens*/
+  h1 {
+    font-size: x-large;
+    color: #BFBCAA;
+  }
+
+  .textSobre h2 {
+    font-size: small;
+    color: #BFBCAA;
+  }
+
+  figure img {
+    width: 50vw;
+
+  }
+
+  /*cabeçalho inicio*/
+  header .inicio {
+    background: #252625;
+    text-align: center;
+
+  }
+
+  .inicio a {
+    font-family: 'Roboto', sans-serif;
+    color: #BFBCAA;
+    background: none;
+    font-size: xx-large;
+    text-decoration: none;
+    padding: 1rem;
+    display: flex;
+
+  }
+
+  footer {
+    font-size: x-small;
+  }
+
+  .btnTopo img {
+    width: 10vw;
+    height: auto;
+  }
+
+  .section-filter {
+    font-size: xx-small;
+  }
+
+main input {
+  width: auto;
+  height: auto;
+  font-size: small;
+}
+
+#filtrarPorFamilia {
+  width: auto;
+  height: auto;
+  font-size: small;
 
 }
-#Menu li {
-  list-style: none;
-}
 
-#Menu li a {
-  font-family: "Game of Thrones", sans-serif;
-  color: #BFBCAA;
-  font-size: 1.5rem;
-  text-decoration: none;
+#filtrarOrdem {
+  width: auto;
+  height: auto;
+  font-size: small;
 
-}
-
-#Menu li a:hover {
-  background-image: url(./assets/fogo.gif);
-  color: #ec5d1b;
-
-}
-
-#Menu li.personagens a:hover {
-  background-image: url(./assets/fogo_gelo.gif);
-  color: #1b9fec;
 }
 
 
