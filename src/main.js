@@ -67,6 +67,7 @@ function initialize() {
     // Renderiza os cards dos personagens filtrados e ordenados
     renderCharacterCards(filteredAndSorted);
   };
+    
 
   // Adiciona ouvintes de eventos aos elementos de input e select
   filtrarPorNome.addEventListener('input', filterListener); // Evento de input no campo de filtragem
