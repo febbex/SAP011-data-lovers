@@ -32,7 +32,7 @@ na parte direita.
 
 Neste projeto você **construirá uma _página web_ para visualizar um _conjunto
 (set) de dados_** que se adeque às necessidades de seu usuário.
-[pg1](./iPhone-8-7-6S-6-375x667_pg1.png) [pg2](./iPhone-8-7-6S-6-375x667_pg2.png)[pg3](./iPhone-8-7-6S-6-375x667_pg3.png)
+![pg1](./iPhone-8-7-6S-6-375x667_pg1.png) ![pg2](./iPhone-8-7-6S-6-375x667_pg2.png)![pg3](./iPhone-8-7-6S-6-375x667_pg3.png)
 
 Como entregável final terá uma página web que permita **visualizar dados,
 filtrá-los, ordená-los e fazer algum cálculo agregado**. Por cálculo agregado
