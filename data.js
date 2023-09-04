@@ -13,5 +13,7 @@ export function filterAndSortCharacters(inputValue, selectedFamily, sortOrder, c
   return filteredCharacters.slice().sort((a, b) => {
     const comparison = a.fullName.localeCompare(b.fullName);
     return sortOrder === 'asc' ? comparison : -comparison;
-  });
+  }); 
 }
+
+
