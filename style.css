@@ -90,7 +90,6 @@ main {
 /* Estilizando Filtros */
 main input {
   margin-top: 1rem;
-  margin-left: 0.98rem;
   padding: 0.80rem 1.6rem;
   border-radius: .8rem;
   background-color: #595856;
@@ -104,7 +103,6 @@ main input {
 /* Estilizando a caixa de seleção */
 #filtrarPorFamilia {
   margin-top: 1rem;
-  margin-left: 0.98rem;
   padding: 0.80rem 1.6rem;
   border-radius: .8rem;
   background-color: #595856;
@@ -118,7 +116,6 @@ main input {
 
 #filtrarOrdem {
   margin-top: 1rem;
-  margin-left: 0.98rem;
   padding: 0.80rem 1.6rem;
   border-radius: .8rem;
   background-color: #595856;
@@ -216,7 +213,7 @@ footer {
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
-  color: #A6A3A1;
+  color: #979695;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   text-align: justify;
@@ -228,7 +225,6 @@ footer {
 }
 h1{
   color: #979695;
-  margin-left: 1rem;
   text-align: left;
 }
 
@@ -269,14 +265,10 @@ figure {
     height: auto;
   }
 
-  .section-filter {
-    font-size: xx-small;
-  }
-
   main input {
     width: auto;
     height: auto;
-    padding: 0.70rem 1.6rem;
+    padding: 0.60rem 1.6rem;
     font-size: x-small;
 
   }
