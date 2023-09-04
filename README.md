@@ -26,7 +26,7 @@ Na imagem seguinte, você pode ver como os dados que estão na parte esquerda
 podem ser usados para construir a interface amigável e compreensível que está
 na parte direita.
 
-![got](<iframe src="https://giphy.com/embed/2LKQTtCUnK4AcD6oH4" width="464" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/2LKQTtCUnK4AcD6oH4">via GIPHY</a></p>)
+![GOT](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm10OHdwcHFva2owamp3Z2p1OW9pcnlqMGg4dDI3em9vbXMxMTNiaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2LKQTtCUnK4AcD6oH4/giphy.gif)
 
 ## 2. Resumo do projeto
 
