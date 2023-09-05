@@ -5,7 +5,7 @@
 * [1. Introdução](#1-introdução)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Definição do produto](#3-definição-do-produto)
-* [4. Considerações gerais](#4-considerações-gerais)
+* [4. Testes unitários](#4-testes-unitários)
 
 
 ***
@@ -13,6 +13,45 @@
 ## 1. Introdução
 
 Projeto desenvolvido de acordo com a proposta do Bootcamp Laboratótia, onde o objetivo é escoher um tema proposto e desenvolver uma página web que permita visualizar dados, filtrá-los e ordená-los.
+O objetivo principal deste projeto é que aprenda a desenhar e construir uma interface web onde se possa visualizar e manipular dados, entendendo o que o usuário necessita.
+
+* HTML
+- Uso de HTML semântico
+* CSS
+- Uso de seletores de CSS
+- Modelo de caixa (box model): borda, margem, preenchimento
+- Uso de flexbox em CSS
+* Web APIs
+- Uso de seletores de DOM
+- Manipulação de eventos de DOM (listeners, propagação, delegação)
+- Manipulação dinâmica de DOM
+* JavaScript
+- Diferenciar entre tipos de dados primitivos e não primitivos
+- Arrays (arranjos)
+- Objetos (key, value)
+- Variáveis (declaração, atribuição, escopo)
+- Uso de condicionais (if-else, switch, operador ternário, lógica booleana)
+- Uso de laços (while, for, for..of)
+- Funções (params, args, return)
+- Testes unitários (unit tests)
+- Módulos de ECMAScript (ES modules)
+- Uso de linter (ESLINT)
+- Uso de identificadores descritivos (Nomenclatura e Semântica)
+- Diferença entre expressões (expressions) e declarações (statements)
+* Controle de Versões (Git e GitHub)
+- Git: Instalação e configuração
+- Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)
+- Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)
+- GitHub: Criação de contas e repositórios, configuração de chave SSH
+- GitHub: Implantação com GitHub Pages
+- GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)
+* Centrado no usuário
+- Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro
+* Design de produto
+- Criar protótipos para obter feedback e iterar
+- Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
+* Pesquisa
+- Planejar e executar testes de usabilidade
 
 ***
 
@@ -81,9 +120,9 @@ lista de personagens com imagem, nome, casa e titúlo de cada um.
   * [Interface - idéia inicial](https://dataloversgot.my.canva.site/)
 </p></details>
 
-### Testes de usabilidade
+## Testes de usabilidade
 
-## Após alguns testes de usabilidade foi ajustado: 
+### Após alguns testes de usabilidade foi ajustado: 
 
 * Disposição do texto para cada tipo de tela.
 * Incluído um icone para facilitar voltar ao topo da página.
