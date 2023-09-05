@@ -75,11 +75,9 @@ O usuário pode acessar o aplicativo através deste link: [Data Lovers - GOT](ht
 
 ## 3. Definição do produto
 
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
-
 ### História do usuário 
 
-# Game of Thrones
+### Game of Thrones
 
 "Game of Thrones" é uma série dramática de televisão e
 fantasia épica criada por David Benioff e D.B. Weiss,
