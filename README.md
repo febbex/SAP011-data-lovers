@@ -12,7 +12,7 @@
 
 ## 1. Introdução
 
-Projeto desenvolvido de acordo com a proposta do Bootcamp Laboratótia, onde o objetivo é escoher um tema proposto e desenvolver uma página web que permita visualizar dados, filtrá-los e ordená-los.
+Projeto desenvolvido de acordo com a proposta do Bootcamp - Laboratória, onde o objetivo é escoher um tema proposto e desenvolver uma página web que permita visualizar dados, filtrá-los e ordená-los.
 O objetivo principal deste projeto é que aprenda a desenhar e construir uma interface web onde se possa visualizar e manipular dados, entendendo o que o usuário necessita.
 
 ### HTML
