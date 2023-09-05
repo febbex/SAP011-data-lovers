@@ -69,7 +69,7 @@ O usuário pode acessar o aplicativo através deste link: [Data Lovers - GOT](ht
 
 * Páginas Versão Mobile
 
-![pg1](./iPhone-8-7-6S-6-375x667_pg1.png)![pg2](./iPhone-8-7-6S-6-375x667_pg2.png)![pg3](./iPhone-8-7-6S-6-375x667_pg3.png)
+![pg_mobile](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWNqbXZwcnAwMzVxNnk2a2EwMW9hNHdrZzV4eXYza3ZzNHA3ZWQ3MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oyY3F9VJAPxRRmqxgs/giphy.gif)
 
 ***
 
