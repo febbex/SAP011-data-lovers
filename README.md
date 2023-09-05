@@ -15,17 +15,17 @@
 Projeto desenvolvido de acordo com a proposta do Bootcamp Laboratótia, onde o objetivo é escoher um tema proposto e desenvolver uma página web que permita visualizar dados, filtrá-los e ordená-los.
 O objetivo principal deste projeto é que aprenda a desenhar e construir uma interface web onde se possa visualizar e manipular dados, entendendo o que o usuário necessita.
 
-* HTML
+### HTML
 - Uso de HTML semântico
-* CSS
+### CSS
 - Uso de seletores de CSS
 - Modelo de caixa (box model): borda, margem, preenchimento
 - Uso de flexbox em CSS
-* Web APIs
+### Web APIs
 - Uso de seletores de DOM
 - Manipulação de eventos de DOM (listeners, propagação, delegação)
 - Manipulação dinâmica de DOM
-* JavaScript
+### JavaScript
 - Diferenciar entre tipos de dados primitivos e não primitivos
 - Arrays (arranjos)
 - Objetos (key, value)
@@ -38,19 +38,19 @@ O objetivo principal deste projeto é que aprenda a desenhar e construir uma int
 - Uso de linter (ESLINT)
 - Uso de identificadores descritivos (Nomenclatura e Semântica)
 - Diferença entre expressões (expressions) e declarações (statements)
-* Controle de Versões (Git e GitHub)
+### Controle de Versões (Git e GitHub)
 - Git: Instalação e configuração
 - Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)
 - Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)
 - GitHub: Criação de contas e repositórios, configuração de chave SSH
 - GitHub: Implantação com GitHub Pages
 - GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)
-* Centrado no usuário
+### Centrado no usuário
 - Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro
-* Design de produto
+### Design de produto
 - Criar protótipos para obter feedback e iterar
 - Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
-* Pesquisa
+### Pesquisa
 - Planejar e executar testes de usabilidade
 
 ***
