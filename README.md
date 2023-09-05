@@ -57,13 +57,13 @@ O objetivo principal deste projeto é que aprenda a desenhar e construir uma int
 
 ## 2. Resumo do projeto
 
-O site foi desenvolvido utilizando (HTML, CSS e JavaScript), são três páginas, Sobre, Buscar e Assistir, conforme abaixo:
+A página foi desenvolvido utilizando (HTML, CSS e JavaScript), são três páginas: Sobre, Buscar e Assistir, conforme abaixo:
 
 ![GOT](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm10OHdwcHFva2owamp3Z2p1OW9pcnlqMGg4dDI3em9vbXMxMTNiaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2LKQTtCUnK4AcD6oH4/giphy.gif)
 
-Implementada a funcionalidade de filtrar por Nome, Família e Ordem crescente e decrescente.
+Implementada a funcionalidade de buscar por nome, filtrar por família, ordem crescente e decrescente.
 
-O usuário pode acessar o aplicativo através deste link: [Data Lovers - GOT](https://febbex.github.io/SAP011-data-lovers/). 
+O usuário pode acessar a página através deste link: [Data Lovers - GOT](https://febbex.github.io/SAP011-data-lovers/). 
 
 ### Interface de Usuário - Responsiva
 
@@ -87,7 +87,7 @@ conflitos entre várias casas nobres no continente fictício
 de Westeros, enquanto competem pelo Trono de Ferro e pelo
 controle dos Sete Reinos.
 
-## Detalhes dos data
+## Detalhes do data
 
 - nome
 - sobrenome
@@ -115,7 +115,7 @@ lista de personagens com imagem, nome, casa e titúlo de cada um.
 
   <details><summary>Links</summary><p>
 
-  * [Interface - idéia inicial](https://dataloversgot.my.canva.site/)
+  * [Interface - ideia inicial](https://dataloversgot.my.canva.site/)
 </p></details>
 
 ## Testes de usabilidade
