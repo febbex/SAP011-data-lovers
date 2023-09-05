@@ -69,7 +69,7 @@ O usuário pode acessar o aplicativo através deste link: [Data Lovers - GOT](ht
 
 * Páginas Versão Mobile
 
-![pg_mobile](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWNqbXZwcnAwMzVxNnk2a2EwMW9hNHdrZzV4eXYza3ZzNHA3ZWQ3MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oyY3F9VJAPxRRmqxgs/giphy.gif)
+![pg_mobile](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmY3dTVvNnYwMmoyNTlrYTdtMHB2OTZrOXB0NTlkc3NlY3dscGNyNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eDQnm0X4LqgaIsntnv/giphy.gif)
 
 ***
 
