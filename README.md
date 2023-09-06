@@ -59,7 +59,7 @@ O objetivo principal deste projeto é que aprenda a desenhar e construir uma int
 
 ### Trello com o escopo do projeto
 
-*[trello](https://trello.com/b/NLrBLNdg/210-data-lovers)
+* [Link do Trello](https://trello.com/b/NLrBLNdg/210-data-lovers)
 
 A página foi desenvolvido utilizando (HTML, CSS e JavaScript), são três páginas: Sobre, Buscar e Assistir, conforme abaixo:
 
