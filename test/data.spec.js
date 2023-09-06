@@ -30,10 +30,10 @@ const characters =
   ]
 
 describe('filterAndSortCharacters', () => {
-  it('Filtrar por familia', () => {
+  it('Filtrar por nome e familia', () => {
     const inputValue = 'Jon';
     const selectedFamily = 'House Stark';
-    const sortOrder = 'asc';
+    const sortOrder = '';
 
     const result = filterAndSortCharacters(inputValue, selectedFamily, sortOrder, characters);
 
