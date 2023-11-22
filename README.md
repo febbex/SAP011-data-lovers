@@ -68,7 +68,7 @@ A página foi desenvolvido utilizando (HTML, CSS e JavaScript), são três pági
 
 Implementada a funcionalidade de buscar por nome, filtrar por família, ordem crescente e decrescente.
 
-O usuário pode acessar a página através deste link: [Data Lovers - GOT](https://febbex.github.io/SAP011-data-lovers/). 
+O usuário pode acessar a página através deste link: [Data Lovers - GOT](https://thamiresfebbo.github.io/SAP011-data-lovers/). 
 
 ### Interface de Usuário - Responsiva
 
