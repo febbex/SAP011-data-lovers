@@ -6,6 +6,7 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Definição do produto](#3-definição-do-produto)
 * [4. Testes unitários](#4-testes-unitários)
+* [5. Desenvolvedora](#5-desenvolvedora)
 
 
 ***
@@ -138,4 +139,9 @@ Teste aplicado nas funções, selecionar por familia e ordenações.
 
 ![testes](./testes.jpg)
 
+## 5. Desenvolvedora
 
+- [@thamiresfebbo](https://github.com/thamiresfebbo)
+<div>
+  <a href="https://www.linkedin.com/in/thamiresfebbo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+</div>
